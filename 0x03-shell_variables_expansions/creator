@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "input file's name:"
+read filename
+echo "#!/bin/bash" > ${filename}
+nvim ${filename}
+chmod u+x ${filename}
